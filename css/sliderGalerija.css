@@ -1,0 +1,53 @@
+#container {
+    width:100%;
+    position:relative;
+    background:#ffff;
+    overflow:hidden;
+}
+#slideshow {
+    height:540px;
+    width:60%;
+    position:relative;
+    margin: 10px auto;
+    background:rgba(236, 240, 241,1.0);
+    box-shadow: 0 0 10px 1px  rgba(30,30,30,0.61);
+    border-radius:5px;
+}
+#slideshow img {
+    height:75%;
+    width:80%;
+    position: absolute;
+    z-index:10;
+    min-width:98%;
+    min-height:95%;
+    left:0;
+    right:0;
+    margin:10px auto;
+}
+#pager {
+    height:20%;
+    width:80%;
+    margin-left: 23%;
+    position:relative;
+}
+#pager div {
+    height:85px;
+    width:125px;
+    border-radius: 5px;
+    background:rgba(236, 240, 241,1.0);
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.50);
+    
+    text-align:center;
+    position:relative;
+    margin: 10px 15px;
+    float: left;
+    cursor: pointer;
+}
+#pager div img {
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+}

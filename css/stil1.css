@@ -1,0 +1,138 @@
+﻿#logo img{
+	height:120px;
+	width:120px;
+}
+.naslov {
+	color:rgb(218,165,32);
+}
+.dropdown-toggle flex-sm-fill nav-link {
+	text-decoration:none;
+}
+#video video {
+	position: relative;
+	width: 100%;
+}
+#onama h1{
+	text-align:left;
+}
+#datum {
+	text-align: center;
+	color: aliceblue;
+}
+.col-md-12 {
+	text-align:center;
+}
+
+
+.social-nav .list-inline-item {
+	padding: 0 10px;
+}
+.social-nav .list-inline-item .fa {
+	color: #000;
+	text-decoration: none;
+	transition-duration: .3s;
+	font-size: 33px;
+}
+
+.social-nav .list-inline-item .fa:hover {
+	color:gray;
+}
+
+/* registracija */
+#reg-logo{
+	text-align:center;
+	margin-top:5%;
+}
+#logo3 img {
+	height:120px;
+	width:120px;
+}
+#gogle {
+	color:black;
+	font-size:80px;
+	margin-right: 5%;
+	text-decoration: none;
+}
+#footerind{
+	text-align:center;
+	color: black;
+}
+#footreg {
+	text-align:center;
+	color:black;
+	font-size: 16px;
+}
+/* login */
+#formular {
+	text-align:center;
+	margin-top:5%;
+}
+#google {
+	color:black;
+	font-size:80px;
+	margin-right: 5%;
+	text-decoration: none;
+}
+#fb4 {
+	color:black;font-size:80px;text-decoration: none;
+}
+/* sportovi */
+.slikeSport img {
+	position: relative;
+	width: 100%;
+}
+
+#sporth
+
+#kosarka h2,
+#fudbal h2,
+#rukomet h2,
+#orijentiring h2,
+#tenis h2,
+#gimnastika h2,
+#plivanje h2 {
+	color:black;
+	margin-left: 10px;
+	margin-top: 5%;
+}
+
+
+
+
+.sport5 {
+	margin-top:5%;
+}
+.sport10{
+	margin-top:10%;
+}
+
+#kosarka img,
+#plivanje img,
+#tenis img
+#orijentiring {
+	margin-left:4%;
+}
+
+#mamboo {
+	margin-top:5%;
+	margin-bottom: 5%;
+}
+
+#dmreze {
+	text-align:center;
+	margin-top: 2%;
+}
+/* galerija */
+#slajder {
+	overflow-x: hidden;
+}
+#krug{
+	position: relative;
+}
+#pager {
+	text-align:center;
+}
+
+.flex-sm-fill text-sm-center nav-link a:hover{
+  color:black;
+}

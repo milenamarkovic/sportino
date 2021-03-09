@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="kljucneReci" content="kosarka,fudbal,plivanje,gimnastika">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Sportino</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/stil1.css">
+    <link rel="icon" type="image/png" href="pictures/unnamed.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleSlider.css">
+    <link rel="stylesheet" href="css/sliderGalerija.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/cycle2.js"></script><!--slajder-->
+</head>
+<body>
+    <div class="ceoSajt">
+
+        <!-- HEADER -->
+        <div class="container-fluid" id="heder">
+            <div class="row">
+                <div class="col-md-4 " id="logo" >
+                    <a href="index.html"><img src="pictures/unnamed.png" alt="logo"></a>
+                </div>
+                <div class="col-md-4" >
+                    <h1 class="naslov">Škola sporta Sportino</h1>
+                </div>
+                <div class="col-md-4" id="loginDugmici">
+                    <a href="login.html" class="btn btn-default oboj">Log in</a>
+                    <a href="registracija.html" class="btn btn-default oboj">Sign up</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVIGACIJA -->
+        <nav class="nav nav-pills flex-column flex-sm-row navbar-dark bg-light" id="navigacija"></nav>
+
+
+         <!--O nama-->
+         <div class="container-fluid" id="nasagalerija">
+
+            <div class="row" id="galerijan">
+                <div class="col-md-11" id="ng">
+                    
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-10 offset-md-1 " id="onama">
+
+                   <p id="tekstonama">
+                        Za Vas smo tu da pre svega naucimo decu da se druze ,budu snalazljivi ,upoznaju nove ljude,pricaju o svemu i naravno da budu fizicki aktivni.Pogledajte fotografije sa nasih casova u galeriji i priblizite se nasem timu .
+                        </p>
+                </div>
+
+            </div>
+        </div>
+        
+       
+        <!-- ALBUMI -->
+        <div id="container">
+            <div
+                id="slideshow"
+                class="cycle-slideshow"
+                data-cycle-fx="fade"
+                data-cycle-pager-fx = "fade"
+                data-cycle-speed="600"
+                data-cycle-timeout="3000"
+                data-cycle-pager = "#pager"
+                data-cycle-pager-template="<div><img src='{{src}}' width=120 height=80></div>"
+            >
+                <img src="pictures/slajder/1.jpg">
+                <img src="pictures/slajder/2.jpg">
+                <img src="pictures/slajder/3.jpg">
+                <img src="pictures/slajder/4.jpg">
+                <img src="pictures/slajder/5.jpg">
+                <img src="pictures/slajder/6.jpg">
+                <img src="pictures/slajder/7.jpg">
+                <img src="pictures/slajder/8.jpg">
+                <img src="pictures/slajder/9.jpg">
+               
+               
+            </div>
+            <div class="container-fluid" id="pager"></div>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container-fluid" id="footer">
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                    <div id="datum"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="dmreze">
+                        <ul class="social-nav list-inline">
+                            <li class="list-inline-item"><a href="#" class="fa fa-facebook" id="fb3"></a></li>
+                            <li class="list-inline-item"><a href="#" class="fa fa-youtube" id="yt2"></a></li>
+                            <li class="list-inline-item"><a href="#" class="fa fa-instagram" id="in2"></a></li>
+                            <li class="list-inline-item"><a href='sitemap.xml' class='fa fa-sitemap' id='sm'></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="footreg">© 2018 Copyright:Sportino</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

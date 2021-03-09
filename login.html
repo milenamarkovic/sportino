@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="kljucneReci" content="kosarka,fudbal,plivanje,gimnastika">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Sportino</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/stil1.css">
+    <link rel="icon" type="image/png" href="pictures/unnamed.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="ceoSajt">
+
+        <!-- HEADER -->
+        <div class="container-fluid" id="heder">
+            <div class="row">
+                <div class="col-md-4 " id="logo" >
+                    <a href="index.html"><img src="pictures/unnamed.png" alt="logo"></a>
+                </div>
+                <div class="col-md-4" >
+                    <h1 class="naslov">Škola sporta Sportino</h1>
+                </div>
+                <div class="col-md-4" id="loginDugmici">
+                    <a href="login.html" class="btn btn-default oboj">Log in</a>
+                    <a href="registracija.html" class="btn btn-default oboj">Sign up</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVIGACIJA -->
+        <nav class="nav nav-pills flex-column flex-sm-row navbar-dark bg-light" id="navigacija"></nav>
+                
+        <!-- FORMA -->
+       
+
+        <div class="container" id="formaContainer">
+            <div class="row" >
+                <div class="col-md-6 offset-md-3">
+
+                    <form id="first_form" method="post">
+                        <h1>Ulogujte se</h1><hr><br>
+                        <div>
+                            <label for="email" ><strong>E-mail</strong></label><br>
+                            <input type="email" name="email" id="email" placeholder="E-mail" required data-required-message="Email nije unet" data-type-message="Unesite pravilan email"><br>
+                            <p class="text-danger" id="email-error"></p>
+                        </div>
+                        <div>
+                            <label for="sifra"><strong>Šifra</strong></label><br>
+                            <input type="password" placeholder="Šifra" name="sifra" id="password" required data-required-message="Šifra nije uneta"><br>
+                            <p class="text-danger" id="password-error"></p>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="vehicle1" value="Bike">Zapamti me
+                            <br><br>
+                        </div>
+                        <input id="dugme" type="submit" value="Uloguj se"><br><br>
+                        <h3>Ulogujte se preko:</h3><hr>
+                        <a href="#" class="fa fa-google" id="google"></a>
+                        <a href="#" class="fa fa-facebook" id="fb4"></a>
+                    </form>
+                    <script src="js/login.js"></script>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container-fluid" id="footer">
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                    <div id="datum"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="dmreze">
+                        <ul class="social-nav list-inline">
+                            <li class="list-inline-item"><a href="#" class="fa fa-facebook" id="fb3"></a></li>
+                            <li class="list-inline-item"><a href="#" class="fa fa-youtube" id="yt2"></a></li>
+                            <li class="list-inline-item"><a href="#" class="fa fa-instagram" id="in2"></a></li>
+                            <li class="list-inline-item"><a href='sitemap.xml' class='fa fa-sitemap' id='sm'></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="footreg">© 2018 Copyright:Sportino</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

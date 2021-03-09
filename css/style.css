@@ -1,0 +1,265 @@
+body{
+    overflow-x:hidden;
+    }
+#heder{
+    background-color:white;
+}
+#logo{
+    padding-left: 5%;
+}
+.naslov{
+    margin-top: 2%;
+     text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-style: italic;
+    color:black;
+    
+}
+
+.naslov1{
+    margin-top: 2%;
+   margin-left: 6%;
+    font-family: Impact, Charcoal, sans-serif;
+    font-style: italic;
+    color:black;
+    
+}
+
+
+
+
+#oMeni{
+    padding-top: 5%;
+}
+
+#galerijan{
+    padding-top: 8%;
+}
+#loginDugmici{
+    margin-top:2%;
+    padding-left: 20%;
+    
+    
+}
+
+#video{
+    background-color:white;
+    padding-top: 20px;
+  
+}
+#kontenerVesti{
+    background-color:white;
+    color:white;
+
+}
+#onama h1{
+    font-style: italic;
+}
+#onama p{
+    font-size: 20px;
+}
+#onamacon{
+    margin-top: 2%;
+}
+#footer{
+
+
+    width: 100%;
+    background-color:rgb(236, 240, 239);
+    padding: 20px;
+    margin-top: 20px;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10%;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#kartice{
+    border: none;
+}
+#zastoSePridruziti{
+    margin-left: 2%;
+}
+#formaContainer{
+    margin-top: 5%;
+    text-align: center;
+}
+#first_form{
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+    margin-bottom: 20%;
+    -webkit-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 8px 4px rgba(0,0,0,0.75);
+
+}
+
+#first_form input:hover{
+    border:2px solid gray;
+}
+#cekiranje1{
+    width: 2%;
+}
+#email{
+    width: 50%;
+}
+#password{
+    width: 50%;
+}
+.invalid {
+    background: red;
+    color: white;
+}
+.error {
+    color: red;
+}
+#ime{
+    width: 50%;
+}
+#prezime{
+    width: 50%;
+}
+#godine{
+    width: 50%;
+}
+#pol{
+    width: 50%;
+}
+#slikeSport img{
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+button[type="button"]{
+    margin-bottom: 10px;
+    color:black;
+}
+a{
+    color: white;
+}
+.btn btn-default a{
+  color:white;
+  
+}
+
+
+
+#autor{
+	height:400px;
+	padding:30px;
+    margin:20PX;
+    color: black;
+}
+
+.autor{
+    color: black;
+}
+.autor a:hover{
+    color: gray;
+}
+
+
+#Cover{
+    background-image: url('../pictures/slajder/slider1.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+
+/* main nav */
+#navigacija {
+    padding: 10px;
+    border-bottom: 1px solid #302592;
+    background-color:white ;
+}
+
+#navigacija .main-nav {
+    display: block;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#navigacija .main-nav .nav-item {
+    display: inline-block;
+    position: relative;
+    
+}
+#navigacija .main-nav .nav-item a {
+    display: block;
+    padding: 10px 20px;
+    color:black;
+    text-decoration: none;
+    
+}
+
+
+#navigacija .main-nav .nav-item a:hover {
+    background-color: whitesmoke;
+    
+}
+
+#navigacija .main-nav .nav-item:hover .sub-menu {
+    display: block;
+}
+
+#navigacija .main-nav .nav-item .sub-menu  {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 180px;
+   
+}
+
+#navigacija .main-nav .nav-item .sub-menu .nav-item {
+    display: block;
+   
+}
+
+.oboj {
+  background-color:rgb(236, 240, 239);
+  color:black;
+
+}
+.oboj a:hover{
+  text-decoration: none;
+  color:black;
+}
+
+#ikonice{
+  display: inline-block;
+  margin:5px;
+}
